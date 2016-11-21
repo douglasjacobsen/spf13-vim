@@ -112,7 +112,7 @@
             Bundle 'git@github.com:tacahiroy/ctrlp-funky'
             Bundle 'git@github.com:terryma/vim-multiple-cursors'
             Bundle 'git@github.com:vim-scripts/sessionman.vim'
-            Bundle 'git@github.com:matchit.zip'
+            Bundle 'git@github.com:tmhedberg/matchit'
             if (has("python") || has("python3")) && exists('g:spf13_use_powerline') && !exists('g:spf13_use_old_powerline')
                 Bundle 'git@github.com:Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
             elseif exists('g:spf13_use_powerline') && exists('g:spf13_use_old_powerline')
@@ -204,8 +204,8 @@
             " Pick either python-mode or pyflakes & pydoc
             Bundle 'git@github.com:klen/python-mode'
             Bundle 'git@github.com:yssource/python.vim'
-            Bundle 'git@github.com:python_match.vim'
-            Bundle 'git@github.com:pythoncomplete'
+            Bundle 'git@github.com:vim-scripts/python_match.vim'
+            Bundle 'git@github.com:mjbrownie/pythoncomplete.vim'
         endif
     " }
 
